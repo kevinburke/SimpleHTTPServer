@@ -13,7 +13,7 @@ import (
 	"github.com/kevinburke/handlers"
 )
 
-const Version = "0.2"
+const Version = "0.3"
 
 func init() {
 	flag.Usage = func() {
