@@ -55,7 +55,7 @@ func main() {
 	}
 	fmt.Fprintf(os.Stderr, "Listening on port %s\n", ln.Addr())
 	mux := http.FileServer(http.Dir("."))
-	mux = handlers.Server(mux, "SimpleHTTPServer")
+	mux = handlers.Server(mux, "SimpleHTTPServer/"+Version)
 	mux = handlers.Duration(mux)
 	mux = handlers.Log(mux)
 	http.Serve(ln, mux)
