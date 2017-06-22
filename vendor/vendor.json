@@ -1,0 +1,73 @@
+{
+	"comment": "",
+	"heroku": {
+		"goVersion": "go1.8",
+		"install": [
+			"."
+		]
+	},
+	"ignore": "",
+	"package": [
+		{
+			"checksumSHA1": "89mP/izFpsXQ60Vta7FbXHQmL1Q=",
+			"path": "github.com/aristanetworks/goarista/monotime",
+			"revision": "b0e49c238c066506cefd63181b73b282ccd84708",
+			"revisionTime": "2017-01-20T08:23:54Z"
+		},
+		{
+			"checksumSHA1": "6ajROKJnlrqavPg5Wb76wEkANXY=",
+			"path": "github.com/go-stack/stack",
+			"revision": "7a2f19628aabfe68f0766b59e74d6315f8347d22",
+			"revisionTime": "2017-05-04T03:43:18Z"
+		},
+		{
+			"checksumSHA1": "6//Y/ig7E3HVtxx8dKHFMtJJi7k=",
+			"path": "github.com/inconshreveable/log15",
+			"revision": "39bacc234bf1afd0b68573e95b45871f67ba2cd4",
+			"revisionTime": "2017-02-16T22:56:31Z"
+		},
+		{
+			"checksumSHA1": "oVIIInZXKkcRozJfuH2vWJsAS7s=",
+			"path": "github.com/inconshreveable/log15/term",
+			"revision": "39bacc234bf1afd0b68573e95b45871f67ba2cd4",
+			"revisionTime": "2017-02-16T22:56:31Z"
+		},
+		{
+			"checksumSHA1": "4dbVQvWNgG2MYZdw0MJEGHd/8/8=",
+			"path": "github.com/kevinburke/handlers",
+			"revision": "f2418efb63700b32df7933624198d2dc71861364",
+			"revisionTime": "2017-05-26T05:15:01Z"
+		},
+		{
+			"checksumSHA1": "nYDUvexudi2pqft3QwWPu2BCKZQ=",
+			"path": "github.com/kevinburke/rest",
+			"revision": "67ce29f826f2153dfdb5df53c0ff7f655efb36f0",
+			"revisionTime": "2017-03-18T17:35:37Z"
+		},
+		{
+			"checksumSHA1": "HGt3N+GULbCP9eWO7n6PSn5JzvE=",
+			"path": "github.com/mattn/go-colorable",
+			"revision": "ded68f7a9561c023e790de24279db7ebf473ea80",
+			"revisionTime": "2017-03-27T08:33:44Z"
+		},
+		{
+			"checksumSHA1": "cAY8WWlvwXakO9nUpQbqNW13JkI=",
+			"path": "github.com/mattn/go-isatty",
+			"revision": "fc9e8d8ef48496124e79ae0df75490096eccf6fe",
+			"revisionTime": "2017-03-22T23:44:13Z"
+		},
+		{
+			"checksumSHA1": "uH0XygBiVvVrdTW1Uj593huX35U=",
+			"path": "github.com/satori/go.uuid",
+			"revision": "b061729afc07e77a8aa4fad0a2fd840958f1942a",
+			"revisionTime": "2016-09-27T10:08:44Z"
+		},
+		{
+			"checksumSHA1": "mPnNSOjRqLdZ9dO/KI0EC1Z03nE=",
+			"path": "golang.org/x/sys/unix",
+			"revision": "fb4cac33e3196ff7f507ab9b2d2a44b0142f5b5a",
+			"revisionTime": "2017-06-14T06:48:48Z"
+		}
+	],
+	"rootPath": "github.com/kevinburke/SimpleHTTPServer"
+}
